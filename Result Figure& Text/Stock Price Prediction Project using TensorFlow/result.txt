@@ -1,0 +1,65 @@
+2025-06-26 09:19:44.242814: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-26 09:19:44.991217: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+(619040, 7)
+              date    open      high     low   close    volume  Name
+243373  2015-07-27   25.54   25.9800   25.52   25.95  36276960    GE
+562259  2017-05-02  283.28  288.7200  283.28  288.59    516270  ULTA
+445628  2015-03-20   34.13   34.4700   33.98   34.25  59160691   PFE
+396523  2013-03-25   10.01   10.1300    9.78    9.88  39367966    MU
+316798  2014-03-18   93.90   94.2400   93.48   93.94   5891904   JNJ
+581842  2015-02-09  108.29  109.5999  107.16  107.88   1183820  VRTX
+93022   2016-12-20   40.21   40.9300   39.91   40.38   2246414   BWA
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 619040 entries, 0 to 619039
+Data columns (total 7 columns):
+ #   Column  Non-Null Count   Dtype
+---  ------  --------------   -----
+ 0   date    619040 non-null  object
+ 1   open    619029 non-null  float64
+ 2   high    619032 non-null  float64
+ 3   low     619032 non-null  float64
+ 4   close   619040 non-null  float64
+ 5   volume  619040 non-null  int64
+ 6   Name    619040 non-null  object
+dtypes: float64(4), int64(1), object(2)
+memory usage: 33.1+ MB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 619040 entries, 0 to 619039
+Data columns (total 7 columns):
+ #   Column  Non-Null Count   Dtype
+---  ------  --------------   -----
+ 0   date    619040 non-null  datetime64[ns]
+ 1   open    619029 non-null  float64
+ 2   high    619032 non-null  float64
+ 3   low     619032 non-null  float64
+ 4   close   619040 non-null  float64
+ 5   volume  619040 non-null  int64
+ 6   Name    619040 non-null  object
+dtypes: datetime64[ns](1), float64(4), int64(1), object(1)
+memory usage: 33.1+ MB
+1197
+2025-06-26 09:19:54.038022: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/10
+36/36 ━━━━━━━━━━━━━━━━━━━━ 3s 18ms/step - loss: 0.0497
+Epoch 2/10
+36/36 ━━━━━━━━━━━━━━━━━━━━ 1s 18ms/step - loss: 0.0112
+Epoch 3/10
+36/36 ━━━━━━━━━━━━━━━━━━━━ 1s 19ms/step - loss: 0.0081
+Epoch 4/10
+36/36 ━━━━━━━━━━━━━━━━━━━━ 1s 19ms/step - loss: 0.0076
+Epoch 5/10
+36/36 ━━━━━━━━━━━━━━━━━━━━ 1s 20ms/step - loss: 0.0084
+Epoch 6/10
+36/36 ━━━━━━━━━━━━━━━━━━━━ 1s 19ms/step - loss: 0.0074
+Epoch 7/10
+36/36 ━━━━━━━━━━━━━━━━━━━━ 1s 20ms/step - loss: 0.0071
+Epoch 8/10
+36/36 ━━━━━━━━━━━━━━━━━━━━ 1s 22ms/step - loss: 0.0066
+Epoch 9/10
+36/36 ━━━━━━━━━━━━━━━━━━━━ 1s 19ms/step - loss: 0.0067
+Epoch 10/10
+36/36 ━━━━━━━━━━━━━━━━━━━━ 1s 20ms/step - loss: 0.0060
+2/2 ━━━━━━━━━━━━━━━━━━━━ 1s 391ms/step
+MSE 66.26539094846747
+RMSE 8.140355701593602
