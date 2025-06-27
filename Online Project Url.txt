@@ -1,2 +1,0 @@
-Detecting COVID-19 From Chest X-Ray Images using CNN
-https://github.com/dwaipayan05/CovCNN-WebApp
